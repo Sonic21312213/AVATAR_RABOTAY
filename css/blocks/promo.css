@@ -1,22 +1,16 @@
 .promo_btn {
-    display: flex;
-    justify-content: center;
+    padding: 10px 30px;
+    color: #26C7EA;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
     background: #0B0E66;
     width: 260px;
-    height: 80px;
-    flex-shrink: 0;      
+    margin-top: 42px;
 }
-
-.promo_btn a {
-    color: #26C7EA;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
-}
-
-
 
 .promo {
     background: url(../../img/bag2.png) center / cover no-repeat;
@@ -46,8 +40,9 @@
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;   
+    font-weight: 400;
     line-height: normal;
+    text-align: left;
 }
 
 
@@ -70,4 +65,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.promo_social_list {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+
+
+.promo_btn :hover {
+    cursor: pointer;
+}
+
+
+.promo_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
