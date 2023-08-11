@@ -18,8 +18,8 @@ label::after {
     width: 18px;
     height: 18px;
     border-radius: 100%;
-    top: 3px;
-    right: 3px;
+    top: 2px;
+    right: 1px;
     background-color: #ffff;
 }
 

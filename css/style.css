@@ -1,4 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@300;400;600&display=swap');
-@import url(./blocks/header_menu.css);
-@import url(./blocks/hello.css);
+@import url(./blocks/header.css);
+@import url(./blocks/promo.css);
+@import url(./blocks/features.css);
+@import url(./blocks/switch.css);
+@import url(./blocks/jake.css);
+@import url(./blocks/trailer.css);
+@import url(./blocks/energie.css);
+@import url(./blocks/langun.css);
 
+a {
+    text-decoration: none;
+  }
+
+li {
+    list-style-type: none;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.header_switcher {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Hammersmith One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

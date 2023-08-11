@@ -1,7 +1,4 @@
 .many_people {
-    top: 965px;
-    position: absolute;
-    right: 600px;
 }
 
 
@@ -23,6 +20,22 @@ font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-position: absolute;
-right: 100px;
+
+}
+
+
+
+.many_people h3 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+.many_people img {
 }

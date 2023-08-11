@@ -6,12 +6,7 @@
     background: #0B0E66;
     width: 260px;
     height: 80px;
-    flex-shrink: 0;
-    
-    top: 620px;
-    left: 204px;
-    position: absolute;
-      
+    flex-shrink: 0;      
 }
 
 .promo_btn a {
@@ -24,8 +19,7 @@
 
 
 .promo {
-    background: url(../../img/bag2.png), lightgray 50% / cover no-repeat;
-    width: 1440px;
+    background: url(../../img/bag2.png) center / cover no-repeat;
     height: 740px;
     flex-shrink: 0;
 }
@@ -39,10 +33,6 @@
 
 
 .text_ua {
-    position: absolute;
-    top: 466px;
-    left: 204px;
-    
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -58,27 +48,18 @@
     font-style: normal;
     font-weight: 400;   
     line-height: normal;
-    position: absolute;
-    top: 330px;
-    left: 204px;
-
 }
 
 
 .arrow {
     width: 152px;
     height: 40px;
-    top: 444px;
-    left: 257px;
     border: 1px;
-    position: absolute;
 }
 
 
 
 
 
-.promomage {
-    position: flex;
-    justify-content: left;
+.image_promo {
 }
