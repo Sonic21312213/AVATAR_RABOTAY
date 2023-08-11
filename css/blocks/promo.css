@@ -61,5 +61,13 @@
 
 
 
-.image_promo {
+.promo .overlay {
+    padding: 180px 0;
+}
+
+
+.promo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
