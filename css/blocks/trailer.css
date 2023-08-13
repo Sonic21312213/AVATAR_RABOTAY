@@ -4,6 +4,13 @@ height: 80px;
 border-radius: 45px 0px;
 border: 3px solid #26C7EA;
 background: #0B0E66;
+color: #26C7EA;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 
@@ -29,4 +36,13 @@ line-height: normal;
 .trailer {
     background: url(../../img/bag3.png) center / cover no-repeat;
     height: 741px;
+}
+
+
+
+.container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
