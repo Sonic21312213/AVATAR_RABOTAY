@@ -52,11 +52,11 @@
     background: #0B0E66;
     color: #26C6EA;
     text-align: center;
-font-family: HeadlandOne;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header_block {
@@ -64,6 +64,3 @@ line-height: normal;
     gap: 50px;
     align-items: center;
 }
-
-
-

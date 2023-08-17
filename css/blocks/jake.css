@@ -1,6 +1,6 @@
 .quote h2 {
     color: #0A3853;
-    text-align: justify;
+    text-align: center;
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
@@ -24,4 +24,10 @@
 .quote img {
     display: block;
     margin: 0 auto;
+}
+
+
+
+.quote {
+    padding: 75px 0 10px 0;
 }
