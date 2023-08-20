@@ -6,11 +6,10 @@
 
 .footer {
     background: url(../../img/bag.png) center/cover no-repeat;
-    color:#FFF;
+    color: #FFF;
 }
 
 .footer_overlay {
-    border-bottom: 3px solid #FFF;
     background: rgba(43, 74, 97, 0.87);
     padding: 39px 0px;
 }
@@ -26,7 +25,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    color:#FFF;
+    color: #FFF;
 }
 
 .footer span {
@@ -46,5 +45,26 @@
     gap: 15px;
     align-items: flex-start;
     margin-top: 40px;
+}
+
+.footer_box h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.footer_box a {
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
